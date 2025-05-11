@@ -72,7 +72,7 @@ const Navbar = () => {
   return (
     <div className="relative">
       {/* Main Navbar */}
-      <div className="navbar bg-[#070D41] shadow-sm py-4 md:py-4 lg:py-8 px-4 md:px-8">
+      <div className="navbar bg-[#070D41] shadow-sm py-4 md:py-4 lg:py-4 px-4 md:px-8">
         <div className="flex justify-between items-center w-full">
           {/* Logo */}
           <div className="flex-none">
