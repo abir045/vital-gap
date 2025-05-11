@@ -24,11 +24,11 @@ const Slider = () => {
 
   return (
     <div className="bg-gray-200">
-      <div className="pt-10 container mx-auto mb-10 w-full ">
+      <div className="pt-10 container mx-auto pb-10 w-full ">
         <h1 className="text-center text-[#172760] text-6xl font-bold">
           THE NEW AGE ERP WITH A CUSTOMER FIRST APPROACH
         </h1>
-        <p className="text-xl mt-10 text-center">
+        <p className="text-xl   mt-10 text-center">
           We know this business is built on customer relationships and service.
           Our distribution management system helps you improve the speed of
           processing orders, increase your sales and reduce your operating
