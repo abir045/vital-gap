@@ -6,6 +6,7 @@ import Testimonials from "./Testimonials";
 import Crm from "./Crm";
 import Inventory from "./Inventory";
 import About from "./About";
+import Stats from "./Stats";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Crm />
       <Inventory />
       <About />
+      <Stats />
       <Testimonials />
     </div>
   );
