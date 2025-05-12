@@ -6,9 +6,13 @@
 }
 
 .upside-down-rounded-triangle {
-  /* width: 300px;
-  height: 300px;
-  background-color: #3498db; */
-  clip-path: ellipse(40% 50% at center);
-  border-radius: 50px; /* Adds some rounding, but may not work consistently across browsers */
+  width: 100%;
+  /* object-fit: cover; */
+
+  clip-path: ellipse(50% 40% at center);
+  /* clip-path: path(
+    "M 30,60 C 45,50 60,65 70,70 C 100,80 135,60 175,60 C 205,60 235,75 250,70 C 265,65 260,50 270,60 C 280,70 285,85 275,100 C 260,130 245,160 230,190 C 210,225 175,255 150,260 C 125,255 90,225 70,190 C 55,160 40,130 25,100 C 15,85 15,70 30,60 Z"
+  ); */
+  /* border-radius: 50px;  */
+  /* Adds some rounding, but may not work consistently across browsers */
 }

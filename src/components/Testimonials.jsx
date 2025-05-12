@@ -99,7 +99,7 @@ const Testimonials = () => {
               <div className="w-full">
                 <img
                   src={t1}
-                  className="w-full upside-down-rounded-triangle"
+                  className="w-full upside-down-rounded-triangle "
                   alt=""
                 />
               </div>
