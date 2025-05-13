@@ -7,6 +7,8 @@ import Crm from "./Crm";
 import Inventory from "./Inventory";
 import About from "./About";
 import Stats from "./Stats";
+import Brands from "./Brands";
+import Blogs from "./Blogs";
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <About />
       <Stats />
       <Testimonials />
+      <Brands />
+      <Blogs />
     </div>
   );
 };
