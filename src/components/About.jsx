@@ -6,7 +6,7 @@ import story from "../assets/story.svg";
 
 const About = () => {
   return (
-    <div className="pb-30 mt-10 container mx-auto">
+    <div className="pb-30 mt-20 container mx-auto">
       <div className="lg:flex gap-10 items-start">
         {/* 1st */}
         <div className="relative">

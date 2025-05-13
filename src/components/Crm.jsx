@@ -13,7 +13,7 @@ const Crm = () => {
           Everything you need to run your distribution & wholesale business
         </h1>
 
-        <p className="text-xl mt-4">
+        <p className="text-xl mt-4 text-center">
           Our systems comes packed with multiple features needed to help improve
           your business operations while putting the customer first
         </p>
