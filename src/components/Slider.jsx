@@ -43,7 +43,7 @@ const Slider = () => {
   return (
     <div className="bg-gray-200">
       <div className="pt-10 container mx-auto pb-10 w-full ">
-        <h1 className="text-center text-[#172760] text-5xl font-bold">
+        <h1 className="text-center text-[#172760] md:text-5xl text-4xl  font-bold">
           THE NEW AGE ERP WITH A CUSTOMER FIRST APPROACH
         </h1>
         <p className="text-xl mt-10 text-center">

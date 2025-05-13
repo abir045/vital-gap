@@ -32,7 +32,7 @@ import test2 from "../assets/test2.png";
 const Testimonials = () => {
   return (
     <div className="bg-[#070D41]  py-10">
-      <h3 className="text-white text-5xl text-center mt-10">
+      <h3 className="text-white md:text-5xl text-4xl  text-center mt-10">
         WATCH WHAT OUR CLIENTS HAVE TO SAY
       </h3>
       <div className="container mx-auto pt-25">

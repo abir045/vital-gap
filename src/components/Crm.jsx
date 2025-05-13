@@ -9,7 +9,7 @@ const Crm = () => {
   return (
     <div className="bg-gray-100">
       <div className="container mx-auto pt-20 pb-20">
-        <h1 className="text-5xl text-center font-bold">
+        <h1 className="md:text-5xl text-4xl  text-center font-bold">
           Everything you need to run your distribution & wholesale business
         </h1>
 

@@ -10,7 +10,7 @@ const Hero = () => {
         </div>
         <div className="hero-content  text-gray-500 text-center mt-80 bg-transparent bg-opacity-20 rounded-2xl shadow-lg shadow-black/10 backdrop-blur-sm py-4">
           <div className="">
-            <h1 className="mb-5 text-5xl font-bold text-white">
+            <h1 className="mb-5 md:text-5xl text-4xl font-bold text-white">
               Power Your Business With Confidence and Ease, Without Breaking The
               Bank!
             </h1>
