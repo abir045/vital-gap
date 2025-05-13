@@ -8,21 +8,18 @@ body {
 }
 
 .upside-down-rounded-triangle {
-  width: 300px;
-  height: 300px;
   object-fit: cover;
 
   clip-path: polygon(
-    50% 100%,
-    /* bottom tip */ 0% 40%,
-    /* left curve bottom */ 15% 15%,
-    /* left curve mid */ 50% 0%,
-    /* top center indent */ 85% 15%,
-    /* right curve mid */ 100% 40% /* right curve bottom */
+    52% 8%,
+    88% 8%,
+    100% 35%,
+    90% 66%,
+    75% 91%,
+    53% 99%,
+    32% 92%,
+    16% 69%,
+    0 27%,
+    18% 8%
   );
-  /* clip-path: path(
-    "M 30,60 C 45,50 60,65 70,70 C 100,80 135,60 175,60 C 205,60 235,75 250,70 C 265,65 260,50 270,60 C 280,70 285,85 275,100 C 260,130 245,160 230,190 C 210,225 175,255 150,260 C 125,255 90,225 70,190 C 55,160 40,130 25,100 C 15,85 15,70 30,60 Z"
-  ); */
-  /* border-radius: 50px;  */
-  /* Adds some rounding, but may not work consistently across browsers */
 }
