@@ -1,12 +1,59 @@
-# React + Vite
+# Vital-Gap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Vital-Gap is a web application built with React and Vite, designed to provide a fast and efficient development experience.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Check out the live application here: https://vital-gap.vercel.app/
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React integration with Vite for rapid development and hot module replacement (HMR)
+- ESLint configured for code quality and consistency.
+- Minimal setup to get started quickly.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or Yarn
+
+## Installation
+
+- Clone the repository:
+
+`git clone https://github.com/abir045/vital-gap.git`
+`cd vital-gap`
+
+## Install dependencies:
+
+- Install dependencies: `npm install`
+
+# or
+
+`yarn install `
+
+## Start the development server:
+
+- `npm run dev`
+
+# or
+
+`yarn dev`
+
+## Project Structure
+
+```
+vital-gap/
+├── public/             # Static assets
+├── src/                # Source code
+│   ├── components/     # React components
+│   ├── App.jsx         # Main application component
+│   └── main.jsx        # Entry point
+├── index.html          # HTML template
+├── package.json        # Project metadata and scripts
+├── vite.config.js      # Vite configuration
+└── .eslintrc.js        # ESLint configuration
+
+```
