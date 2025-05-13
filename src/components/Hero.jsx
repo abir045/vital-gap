@@ -18,7 +18,9 @@ const Hero = () => {
               With Our Distribution Management System - The New Age ERP. Built
               for Wholesalers and Distributors.
             </p>
-            <button className="btn bg-blue-500 text-white">Book a Demo</button>
+            <button className="btn bg-blue-500 text-white border-none">
+              Book a Demo
+            </button>
             <button className="btn bg-white  ml-3">Contact Us</button>
           </div>
         </div>
