@@ -9,6 +9,8 @@ import About from "./About";
 import Stats from "./Stats";
 import Brands from "./Brands";
 import Blogs from "./Blogs";
+import ImageGallery from "./ImageGallery";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
       <Testimonials />
       <Brands />
       <Blogs />
+      <Footer />
+      {/* <ImageGallery /> */}
     </div>
   );
 };

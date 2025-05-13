@@ -43,7 +43,7 @@ const Slider = () => {
   return (
     <div className="bg-gray-200">
       <div className="pt-10 container mx-auto pb-10 w-full ">
-        <h1 className="text-center text-[#172760] text-6xl font-bold">
+        <h1 className="text-center text-[#172760] text-5xl font-bold">
           THE NEW AGE ERP WITH A CUSTOMER FIRST APPROACH
         </h1>
         <p className="text-xl mt-10 text-center">
@@ -72,7 +72,7 @@ const Slider = () => {
             modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
           >
             <SwiperSlide>
-              <div className="card    lg:card-side bg-gray-100 shadow-lg">
+              <div className="card lg:h-[400px]   lg:card-side bg-gray-100 shadow-lg">
                 {/* <figure>
                   <img src={d1} alt="Album" className="w-full h-full" />
                 </figure> */}
@@ -86,7 +86,7 @@ const Slider = () => {
                   <h2 className="card-title text-3xl font-bold">
                     Tailored to your business
                   </h2>
-                  <p className="text-xl font-semibold">
+                  <p className="text-xl ">
                     Our system is built for distributors and comes with open
                     flexibility to help you tailor the systems further to your
                     needs and customers.
@@ -100,7 +100,7 @@ const Slider = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card  lg:card-side  shadow-sm w-full bg-gray-100">
+              <div className="card lg:h-[400px] lg:card-side  shadow-sm w-full bg-gray-100">
                 {/* <figure> */}
                 <img
                   src={d2}
@@ -127,7 +127,7 @@ const Slider = () => {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <div className="card   lg:card-side bg-gray-100 shadow-lg">
+              <div className="card lg:h-[400px]  lg:card-side bg-gray-100 shadow-lg">
                 {/* <figure>
               <img src={d1} alt="Album" className="w-full h-full" />
             </figure> */}
