@@ -1,17 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import "tailwindcss";
 @plugin "daisyui";
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 .upside-down-rounded-triangle {
-  width: 100%;
-  /* object-fit: cover; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 
-  clip-path: ellipse(50% 40% at center);
+  clip-path: polygon(
+    50% 100%,
+    /* bottom tip */ 0% 40%,
+    /* left curve bottom */ 15% 15%,
+    /* left curve mid */ 50% 0%,
+    /* top center indent */ 85% 15%,
+    /* right curve mid */ 100% 40% /* right curve bottom */
+  );
   /* clip-path: path(
     "M 30,60 C 45,50 60,65 70,70 C 100,80 135,60 175,60 C 205,60 235,75 250,70 C 265,65 260,50 270,60 C 280,70 285,85 275,100 C 260,130 245,160 230,190 C 210,225 175,255 150,260 C 125,255 90,225 70,190 C 55,160 40,130 25,100 C 15,85 15,70 30,60 Z"
   ); */

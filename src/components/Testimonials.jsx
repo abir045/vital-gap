@@ -50,7 +50,7 @@ const Testimonials = () => {
           modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         >
           <SwiperSlide>
-            <div className="flex items-center w-full bg-gray-300 rounded-2xl">
+            <div className="flex items-start w-full bg-gray-300 rounded-2xl">
               <div>
                 <div className="w-full md:min-w-[60%] md:max-w-[90%] relative  boxShadow rounded-xl flex-col sm:flex gap-[20px] p-4">
                   <div className="w-full ">
@@ -96,17 +96,13 @@ const Testimonials = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full">
-                <img
-                  src={t1}
-                  className="w-full upside-down-rounded-triangle "
-                  alt=""
-                />
+              <div className="w-full p-5">
+                <img src={t1} className=" w-[500px] rounded-2xl" alt="" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center w-full bg-gray-300 rounded-2xl">
+            <div className="flex items-start w-full bg-gray-300 rounded-2xl">
               <div>
                 <div className="w-full md:min-w-[60%] md:max-w-[90%] relative  boxShadow rounded-xl flex-col sm:flex gap-[20px] p-4">
                   <div className="w-full ">
@@ -151,12 +147,8 @@ const Testimonials = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full">
-                <img
-                  src={test2}
-                  className="w-full upside-down-rounded-triangle "
-                  alt=""
-                />
+              <div className="w-full p-5 ">
+                <img src={test2} className=" w-[500px] rounded-2xl" alt="" />
               </div>
             </div>
           </SwiperSlide>
